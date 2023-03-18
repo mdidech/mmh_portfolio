@@ -198,4 +198,7 @@ footer ul li a:hover {
   .about-img {
     display: none;
   }
+  .nav-item {
+    text-align: center;
+  }
 }
