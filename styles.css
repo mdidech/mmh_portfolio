@@ -169,7 +169,23 @@ footer ul li a {
 footer ul li a:hover {
   color: #f07d00;
 }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 
+.social-icon {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #1e90ff;
+}
 /* Media Queries */
 
 @media (max-width: 768px) {
