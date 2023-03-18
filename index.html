@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional digital marketing services that drive growth and maximize ROI."
+    />
+    <title>M'Marketing Help - Your Growth Partner</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        let links = document.querySelectorAll('nav a[href^="#"]');
+        for (let link of links) {
+          link.addEventListener('click', function (event) {
+            event.preventDefault();
+            let target = document.querySelector(this.getAttribute('href'));
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container">
+          <a href="./index.html" class="navbar-brand logo"
+            ><img src="./img/mmh.png" alt="" srcset="" width="60" /> M'Marketing
+            Help</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="./index.html#services" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">À propos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contactez-Nous</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="home" class="jumbotron jumbotron-fluid text-center mb-0">
+      <div class="container hero-text">
+        <h1>Maximisez votre croissance</h1>
+        <p>
+          Boostez votre présence en ligne avec notre marketing digital
+          performant et sur-mesure !
+        </p>
+        <a href="#services" class="btn btn-warning cta-button"
+          >Decouvrez Nos Services</a
+        >
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2 class="section-title">Nos Services</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 service">
+            <img
+              src="./img/seo5.png"
+              alt="SEO icon"
+              class="mx-auto d-block mb-3"
+            />
+            <h3 class="text-center">Search Engine Optimization</h3>
+            <p>
+              Augmentez la visibilité de votre site web et générez du trafic
+              organique grâce à nos stratégies de référencement SEO sur mesure.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 service">
+            <img
+              src="./img/ppc.png"
+              alt="PPC icon"
+              class="mx-auto d-block mb-3"
+            />
+            <h3 class="text-center">Pay-Per-Click Management</h3>
+            <p>
+              Maximisez votre ROI avec nos campagnes PPC ciblées sur Google Ads
+              et Facebook Ads.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 service">
+            <img
+              src="./img/smm.png"
+              alt="SMM icon"
+              class="mx-auto d-block mb-3"
+            />
+            <h3 class="text-center">Social Media Marketing</h3>
+            <p>
+              Engagez votre public et renforcez la notoriété de votre marque
+              avec des campagnes créatives sur les réseaux sociaux qui résonnent
+              avec votre marché cible.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 service">
+            <img
+              src="./img/content.png"
+              alt="Content Marketing icon"
+              class="mx-auto d-block mb-3"
+            />
+            <h3 class="text-center">Content Marketing</h3>
+            <p>
+              Créez et distribuez du contenu de valeur qui attire et convertit
+              des prospects en clients, et des clients en acheteurs fidèles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section-title">Nos Portfolio</h2>
+        <p class="mb-5 text-center">
+          Jetez un coup d'œil à quelques-uns de nos projets réussis de marketing
+          digital :
+        </p>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 portfolio-item">
+            <img
+              src="./img/linguaViva.png"
+              alt="ecole LinguaViva"
+              class="img-fluid rounded"
+            />
+            <h3>L'ecole LinguaViva</h3>
+            <p>
+              Création de site web et SEO pour LinguaViva, offrant une
+              expérience utilisateur optimale et une visibilité en ligne accrue.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 portfolio-item">
+            <img
+              src="./img/pagedoree.png"
+              alt="La Page Dorée"
+              class="img-fluid rounded"
+            />
+            <h3>Librairie La Page Dorée</h3>
+            <p>
+              Site web professionnel et optimisé pour "La Page Dorée", offrant
+              une expérience utilisateur optimale et une visibilité en ligne
+              accrue.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 portfolio-item">
+            <img
+              src="./img/JHR logistics- transparent.png"
+              alt="JHR logistics"
+              class="img-fluid rounded"
+            />
+            <h3>JHR logistics</h3>
+            <p>
+              Un logo professionnel pour une société de transport spécialisée
+              dans l'expédition de marchandises, reflétant leur expertise et
+              leur mission.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 portfolio-item">
+            <img
+              src="./img/cartevisite.png"
+              alt="carte visite"
+              class="img-fluid rounded"
+            />
+            <h3>Coach Sportif</h3>
+            <p>
+              Carte de visite professionnelle pour un coach sportif passionné,
+              avec des couleurs vives et les informations de contact
+              essentielles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">À propos</h2>
+        <div class="row">
+          <div class="col-md-6 about-text">
+            <p>
+              Nous sommes des experts en marketing digital et nous mettons tout
+              en œuvre pour vous offrir des stratégies personnalisées qui
+              génèrent des résultats concrets et mesurables pour votre
+              entreprise. Que vous cherchiez à vous connecter avec votre
+              audience cible, à améliorer votre visibilité en ligne ou à générer
+              davantage de prospects et de ventes, notre équipe de
+              professionnels chevronnés mettra en place les solutions les plus
+              innovantes et efficaces pour vous aider à atteindre vos objectifs.
+            </p>
+            <p>
+              Avec notre approche centrée sur les données et notre expérience
+              prouvée, vous pouvez compter sur nous pour vous offrir des
+              résultats inégalés qui feront une réelle différence pour votre
+              entreprise. Nous utilisons les derniers outils et technologies
+              pour optimiser votre classement dans les résultats de recherche,
+              booster votre présence sur les réseaux sociaux et maximiser votre
+              retour sur investissement publicitaire.
+            </p>
+            <p>
+              Ne passez pas à côté de l'opportunité de transformer votre
+              présence en ligne en un atout majeur pour votre entreprise.
+              Choisissez notre agence de marketing numérique de pointe et
+              laissez-nous vous aider à atteindre vos objectifs de croissance et
+              de réussite en ligne !"
+            </p>
+            <a href="#contact" class="btn btn-warning cta-button"
+              >Contactez-nous</a
+            >
+          </div>
+          <div class="col-md-6">
+            <img
+              src="./img/about-us.png"
+              alt="Our Team"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contactez-Nous</h2>
+        <p class="mb-5 text-center">
+          Vous êtes prêt à donner un coup de boost à votre entreprise.
+          Contactez-nous pour une consultation gratuite et découvrez comment
+          nous pouvons vous aider à atteindre vos objectifs de croissance en
+          ligne.
+        </p>
+        <form action="submit.php" method="post" class="row g-3">
+          <div class="col-md-6">
+            <label for="name" class="form-label">Nom:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="col-12">
+            <label for="message" class="form-label">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="form-control"
+              required
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <input type="submit" value="Envoyer" class="btn btn-warning mt-3" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <p class="mb-3">&copy; 2023 M'Marketing Help . All righ ts reserved.</p>
+        <p>
+          <a href="./index.html" class="navbar-brand logo"
+            ><img src="./img/mmh.png" alt="" srcset="" width="60" /> M'Marketing
+            Help</a
+          >
+        </p>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a href="./privacy-policy.html" class="nav-link text-white"
+              >Privacy Policy</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./terms-of-services.html" class="nav-link text-white"
+              >Terms of Service</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

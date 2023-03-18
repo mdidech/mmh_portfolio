@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional digital marketing services that drive growth and maximize ROI."
+    />
+    <title>Digital Marketing Pro - Your Growth Partner</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        let links = document.querySelectorAll('nav a[href^="#"]');
+        for (let link of links) {
+          link.addEventListener('click', function (event) {
+            event.preventDefault();
+            let target = document.querySelector(this.getAttribute('href'));
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container">
+          <a href="#home" class="navbar-brand logo"
+            ><img src="mmh.png" alt="" srcset="" width="60" /> M'Marketing
+            Help</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <p class="mb-3">&copy; 2023 M'Marketing Help . All rights reserved.</p>
+        <p><img src="mmh.png" alt="" srcset="" width="80" /></p>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Privacy Policy</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Terms of Service</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
