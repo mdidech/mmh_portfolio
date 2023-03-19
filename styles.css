@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 /* styles.css */
 
 /* General styles */
@@ -79,12 +80,16 @@ a:hover {
 }
 
 .hero-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
   font-size: 60px;
 }
 
 .hero-text p {
   font-size: 24px;
   margin-bottom: 30px;
+  font-family: 'Open Sans';
+  font-weight: bold;
 }
 
 .cta-button {
