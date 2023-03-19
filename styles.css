@@ -88,14 +88,16 @@ a:hover {
 }
 
 .cta-button {
-  background: #f07d00;
+  background-color: #f07d00;
   color: #fff;
   border: none;
   padding: 10px 15px;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 700;
 }
-
+.underline-link {
+  text-decoration: underline;
+}
 .cta-button:hover {
   background: transparent;
   border: 2px solid #f07d00;

@@ -24,8 +24,57 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+
+      header,
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      h1,
+      h2 {
+        font-weight: bold;
+        margin-top: 30px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-top: 20px;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer p {
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+      }
+    </style>
     <script>
       document.addEventListener('DOMContentLoaded', function () {
         let links = document.querySelectorAll('nav a[href^="#"]');
@@ -43,7 +92,7 @@
     <header>
       <nav class="navbar navbar-expand-md navbar-light bg-white">
         <div class="container">
-          <a href="#home" class="navbar-brand logo"
+          <a href="./index.html#home" class="navbar-brand logo"
             ><img src="./img/mmh.png" alt="" srcset="" width="60" /> M'Marketing
             Help</a
           >
@@ -61,23 +110,69 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="#services" class="nav-link">Services</a>
+                <a href="./index.html#services" class="nav-link">Services</a>
               </li>
               <li class="nav-item">
-                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="./index.html#portfolio" class="nav-link">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a href="#about" class="nav-link">About Us</a>
+                <a href="./index.html#about" class="nav-link">About Us</a>
               </li>
               <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="./index.html#contact" class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+    <header>
+      <div class="container"><h1>Terms of Service</h1></div>
+    </header>
 
+    <main>
+      <div class="container">
+        <h2>Agreement to Terms</h2>
+        <p>
+          By using our website, you agree to be bound by these Terms of Service.
+        </p>
+
+        <h2>Use of the Website</h2>
+        <p>
+          You may use our website for lawful purposes only. You may not use our
+          website to engage in any illegal activity or to infringe upon the
+          rights of others.
+        </p>
+
+        <h2>Intellectual Property</h2>
+        <p>
+          All content on our website is protected by copyright and other
+          intellectual property laws. You may not reproduce, distribute, or
+          modify any content on our website without our express written consent.
+        </p>
+
+        <h2>Limitation of Liability</h2>
+        <p>
+          We are not liable for any damages or losses that may result from your
+          use of our website. We do not guarantee the accuracy, completeness, or
+          reliability of any content on our website.
+        </p>
+
+        <h2>Changes to the Terms of Service</h2>
+        <p>
+          We reserve the right to modify these Terms of Service at any time.
+          Your continued use of our website after any changes to these Terms of
+          Service will constitute your acceptance of the new terms.
+        </p>
+
+        <h2>Contact Us</h2>
+        <p>
+          If you have any questions about these Terms of Service, please contact
+          us at
+          <a href="mailto:contact@mywebsite.com">contact@mywebsite.com</a>.
+        </p>
+      </div>
+    </main>
     <footer class="bg-dark text-white py-4">
       <div class="container">
         <p class="mb-3">&copy; 2023 M'Marketing Help . All rights reserved.</p>
@@ -90,7 +185,7 @@
         </p>
         <div class="social-icons">
           <a
-            href="https://www.facebook.com/yourusername"
+            href="https://www.facebook.com/mmarketinghelp"
             target="_blank"
             class="social-icon"
           >
@@ -98,14 +193,7 @@
           </a>
 
           <a
-            href="https://www.linkedin.com/in/yourusername"
-            target="_blank"
-            class="social-icon"
-          >
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/yourusername"
+            href="https://www.instagram.com/mmarketinghelp"
             target="_blank"
             class="social-icon"
           >
