@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
  $to = 'abdelaziz.mdidech@gmail.com';
 
  // Set email subject
- $subject = 'New Contact Form Submission';
+ $subject = 'New Contact Form Submission From mmarketinghelp protfolio';
 
  // Build the email content
  $body = "Name: $name\nEmail: $email\nMessage: $message";
