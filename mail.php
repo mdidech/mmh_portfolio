@@ -29,11 +29,8 @@ if (isset($_POST['submit'])) {
 
  // Send the email
  if (mail($to, $subject, $body, $headers)) {
-  echo '<p>votre message est envoyé avec success.</p>';
-  sleep(10);
-  header('Location: index.html');
-  exit;
+  header('Location: emailenvoye.html');
  } else {
-  echo '<p>There was an error sending your message. Please try again later.</p>';
+  header('Location: emailenvoye.html');
  }
 }

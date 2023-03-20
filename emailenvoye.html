@@ -66,14 +66,38 @@
         text-decoration: none;
       }
 
-      a:hover {
-        text-decoration: underline;
-      }
-
       footer p {
         font-size: 14px;
         margin-top: 20px;
         text-align: center;
+      }
+
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+      }
+      #wrapper {
+        max-width: 800px;
+        min-height: 50vh;
+        margin: 0 auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        font-size: 36px;
+        margin-top: 0;
+      }
+      p {
+        margin: 20px 0;
       }
     </style>
     <script>
@@ -129,51 +153,18 @@
         </div>
       </nav>
     </header>
-    <header>
-      <div class="container"><h1>Terms of Service</h1></div>
-    </header>
 
     <main>
       <div class="container">
-        <h2>Agreement to Terms</h2>
-        <p>
-          By using our website, you agree to be bound by these Terms of Service.
-        </p>
-
-        <h2>Use of the Website</h2>
-        <p>
-          You may use our website for lawful purposes only. You may not use our
-          website to engage in any illegal activity or to infringe upon the
-          rights of others.
-        </p>
-
-        <h2>Intellectual Property</h2>
-        <p>
-          All content on our website is protected by copyright and other
-          intellectual property laws. You may not reproduce, distribute, or
-          modify any content on our website without our express written consent.
-        </p>
-
-        <h2>Limitation of Liability</h2>
-        <p>
-          We are not liable for any damages or losses that may result from your
-          use of our website. We do not guarantee the accuracy, completeness, or
-          reliability of any content on our website.
-        </p>
-
-        <h2>Changes to the Terms of Service</h2>
-        <p>
-          We reserve the right to modify these Terms of Service at any time.
-          Your continued use of our website after any changes to these Terms of
-          Service will constitute your acceptance of the new terms.
-        </p>
-
-        <h2>Contact Us</h2>
-        <p>
-          If you have any questions about these Terms of Service, please contact
-          us at
-          <a href="mailto:contact@mywebsite.com">contact@mywebsite.com</a>.
-        </p>
+        <div id="wrapper" class="text-center">
+          <h1>Email envoyé avec succès</h1>
+          <p>
+            Merci de nous avoir contacté. Votre email a été envoyé avec succès.
+          </p>
+          <a class="cta-button" onclick="window.location.href='index.html'">
+            Retourner à la page d'accueil
+          </a>
+        </div>
       </div>
     </main>
     <footer class="bg-dark text-white py-4">
