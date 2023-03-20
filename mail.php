@@ -31,6 +31,6 @@ if (isset($_POST['submit'])) {
  if (mail($to, $subject, $body, $headers)) {
   header('Location: emailenvoye.html');
  } else {
-  header('Location: emailenvoye.html');
+  header('Location: emailnonenvoye.html');
  }
 }
