@@ -19,7 +19,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                echo 'deployment'
+                echo 'mise en production'
             }
         }
     }
